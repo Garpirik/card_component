@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@500&display=swap');
+section.block_square{
+    width: 30%;
+    height: 25%;
+    background-color: #282340;
+    margin-left: 25%;
+    margin-top: 15%;
+    float:left;
+    position:relative;    
+
+}
+
+h1.text_Title{
+    margin-left: 25%;
+    margin-top: 12%;
+    text-align: top;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+span.insights{
+    color:  #8b13f9;
+
+}
+p.main_text{
+    margin-left: 25%;
+    margin-top: 5%;
+    color: rgb(208, 208, 208);
+    opacity: 70%    ;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+
+
+
+
+p.text1_companies{
+    font-size: 24px;
+    color:white;
+    font-family: 'Noto Serif Toto', serif;
+    display: inline-block;
+    }
+p.text2_companies{
+    font-size: 12px;
+    font-family: 'Noto Serif Toto', serif;
+    color: gray;
+    letter-spacing: 1.5px;
+    margin-top: -3%;
+display: inline-block;
+}
+
+
+p.text1_templates{
+    font-size: 24px;
+    color:white;
+    font-family: 'Noto Serif Toto', serif;
+    display: inline-block;
+
+    
+}
+p.text2_templates{
+    font-size: 12px;
+    font-family: 'Noto Serif Toto', serif;
+    color: gray;
+    letter-spacing: 1.5px;
+    margin-top: -3%;
+}
+
+p.text1_queries{
+    font-family: 'Noto Serif Toto', serif;
+    display: inline-block;
+    font-size: 24px;
+    color:white;
+}
+p.text2_queries{
+    font-size: 12px;
+    font-family: 'Noto Serif Toto', serif;
+    color: gray;
+    letter-spacing: 1.5px;
+    margin-top: -3%;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ img.image_main{
+display: inline-block;
+position: absolute;
+left: 100%;
+top: 0%;
+justify-content: space-between;
+height: 100%;
+width: 100%;
+
+}
+@media screen and (max-device-width:820px), screen and (max-width:820px), screen and (min-width:641px) {
+    section.block_square{
+        width: 30%;
+        height: 25%;
+        background-color: #282340;
+        margin-left: 25%;
+        margin-top: 15%;
+        float:left;
+        position:relative;    
+    
+    }
+    
+    h1.text_Title{
+        margin-left: 25%;
+        margin-top: 12%;
+        text-align: top;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    
+    span.insights{
+        color:  #8b13f9;
+    
+    }
+    p.main_text{
+        margin-left: 25%;
+        margin-top: 5%;
+        color: rgb(208, 208, 208);
+        opacity: 70%    ;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    
+    
+    
+    p.text1_companies{
+        font-size: 18px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        }
+    p.text2_companies{
+        font-size: 10px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    display: inline-block;
+    }
+    
+    
+    p.text1_templates{
+        font-size: 18px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+    
+        
+    }
+    p.text2_templates{
+        font-size:10px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    }
+    
+    p.text1_queries{
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        font-size: 18px;
+        color:white;
+    }
+    p.text2_queries{
+        font-size: 10px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+        
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+     }
+    
+     img.image_main{
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    
+    }
+
+}
+ @media screen and (max-device-width:640px), screen and (max-width:640px){
+    section.block_square{
+        width: 30%;
+        height: 25%;
+        background-color: #282340;
+        margin-left: 25%;
+        margin-top: 15%;
+        float:left;
+        position:relative;    
+    
+    }
+    
+    h1.text_Title{
+        margin-left: 25%;
+        margin-top: 12%;
+        text-align: top;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    
+    span.insights{
+        color:  #8b13f9;
+    
+    }
+    p.main_text{
+        margin-left: 25%;
+        margin-top: 5%;
+        color: rgb(208, 208, 208);
+        opacity: 70%    ;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    
+    
+    
+    p.text1_companies{
+        font-size: 12px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        }
+    p.text2_companies{
+        font-size: 6px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    display: inline-block;
+    }
+    
+    
+    p.text1_templates{
+        font-size: 12px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+    
+        
+    }
+    p.text2_templates{
+        font-size: 6px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    }
+    
+    p.text1_queries{
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        font-size: 12px;
+        color:white;
+    }
+    p.text2_queries{
+        font-size: 6px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+        
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+     }
+    
+     img.image_main{
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    
+    }
+    
+}
+
+
+@media screen and (max-device-width:420px), screen and (max-width:420px){
+    section.block_square{
+        width: 30%;
+        height: 25%;
+        background-color: #282340;
+        margin-left: 25%;
+        margin-top: 15%;
+        float:left;
+        position:relative;    
+    
+    }
+    
+    h1.text_Title{
+        margin-left: 25%;
+        margin-top: 12%;
+        text-align: top;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    
+    span.insights{
+        color:  #8b13f9;
+    
+    }
+    p.main_text{
+        margin-left: 25%;
+        margin-top: 5%;
+        color: rgb(208, 208, 208);
+        opacity: 70%    ;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    
+    
+    
+    p.text1_companies{
+        font-size: 12px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        }
+    p.text2_companies{
+        font-size: 4px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    display: inline-block;
+    }
+    
+    
+    p.text1_templates{
+        font-size: 12px;
+        color:white;
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+    
+        
+    }
+    p.text2_templates{
+        font-size: 4px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+    }
+    
+    p.text1_queries{
+        font-family: 'Noto Serif Toto', serif;
+        display: inline-block;
+        font-size: 12px;
+        color:white;
+    }
+    p.text2_queries{
+        font-size: 4px;
+        font-family: 'Noto Serif Toto', serif;
+        color: gray;
+        letter-spacing: 1.5px;
+        margin-top: -3%;
+        
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+     }
+    
+     img.image_main{
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    
+    }
+}
